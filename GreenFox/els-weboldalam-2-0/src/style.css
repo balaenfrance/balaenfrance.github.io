@@ -1,0 +1,123 @@
+.layout{
+  max-width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  word-wrap: break-word;
+  font-family: 'Josefin Sans';
+  line-height: 1.8;
+  margin-top: 5px;
+}
+
+.navigator{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  max-width: 600px; 
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Abril Fatface'
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.tomb1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #787774;
+  margin-right: 10px;
+
+}
+
+.tomb2{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+h4{
+ font-size: 18px;
+ margin-bottom: 0px;
+}
+
+h1{
+  font-size: 40px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: #343434;
+  margin-top: 120px;
+} 
+
+h2{
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  color: #343434;
+  margin-top: 110px;
+}
+
+header{
+font-family: 'Abril Fatface';
+color: #343434;
+  
+}
+
+.italic{
+  font-family: 'Merriweather';
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0px;
+  line-height: 0.5;
+}
+
+.capital{
+  text-transform: uppercase;
+  font-size: 20px; 
+}
+
+.citation{
+  font-family: 'Abril Fatface';
+  color: white;
+  background-color: #343434;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+.small-text{
+  font-size: 13px;
+}
+
+.small-list{
+  font-size: 13px;
+}
+
+.theblackline{
+  height: 2px;
+  width: auto;
+  background-color: black;
+}

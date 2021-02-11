@@ -1,0 +1,89 @@
+.container{  /*doboz*/
+  max-width: 600px; /*azért max hogy legyen hely összemennije az egész oldalnak*/
+  margin-left: auto;    /*középre*/
+  margin-right: auto;   /*középre*/
+  font-family: 'Open Sans';
+}
+
+.newsletter h3 {
+  margin-top: 0;
+}
+
+.newsletter{
+  color: grey;
+  border: solid thin #cfcfcf;
+  padding: 5px;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  
+  position: relative;  /*ez segit pozicionálni a többi elemet*/
+}
+
+.newsletter button{
+  background-color: #3cb878;
+  border: none;
+  color: white;
+  display: block; /*uj sorba a gombot*/
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.newsletter input#email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4px;
+  border: solid #cfcfcf 1px;
+  border-radius: 3px;
+  
+  box-sizing: border-box; /*a megadott szélesség szerint számolja a szélességet*/
+}
+
+.newsletter #terms{
+  position: relative; /*pozicionálás*/
+  top: 1px;
+}
+
+.newsletter #closex{
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+#questionmark{
+  background-color: #3cb878;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  
+  position: fixed; /*fix pozicionálás*/
+  bottom: 10px;
+  right: 10px;
+}
+
+.card{
+  background-color: #3cb878;
+  width: 180px;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  
+  box-shadow: 0 0 7px 3px grey; /*árnyékolás*/
+}
+
+.card h3{
+  margin-bottom: 0;
+}
+
+#card-holder{
+  display: flex; /*flax box használata*/
+  justify-content: space-between; /*kifeszités v kitöltés*/
+  flex-wrap: wrap;  /*ez töri uj sorba*/
+  align-content: space-around;
+
+}
